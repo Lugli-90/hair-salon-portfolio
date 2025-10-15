@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Palette Hair Atelier "L"</title>
+  <meta name="description" content="Palette Hair Atelier “L” – A responsive demo site inspired by a modern hair salon in Milan. Designed and coded as part of a personal portfolio project.">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <!-- CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+ </head>
+
+ <body>
+  <a id="top"></a>
+  <header class="page-header wrapper">
+    <h1><a href="index.html"><img class="logo" src="img/logo.png" alt="Palette Hair Atelier L HOME"></a></h1>
+    <nav>
+      <ul class="pc-main-nav">
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#reserve">Reserve</a></li>
+        <li><a href="#access">Access</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <!-- スマホ時だけ表示 -->
+  <nav class="mobile-bottom-nav">
+   <a href="#about" class="nav-item"><img src="img/about.svg" alt="ABOUT"><span>ABOUT</span></a>
+   <a href="#gallery" class="nav-item"><img src="img/gallery.svg" alt="GALLERY"><span>GALLERY</span></a>
+   <a href="#menu" class="nav-item"><img src="img/menu.svg" alt="MENU"><span>MENU</span></a>
+   <a href="#reserve" class="nav-item"><img src="img/reserve.svg" alt="RESERVE"><span>RESERVE</span></a>
+   <a href="#access" class="nav-item"><img src="img/access.svg" alt="ACCESS"><span>ACCESS</span></a>
+  </nav>
+
+  <section id="hero">
+    <img src="img/top_text.png" style="display: block; margin: auto;" alt="Crafted with care, just for you.">
+  </section>
+
+  <section id="about" class="fadein">
+    <div class="about-grid">
+      <div class="image image-top">
+        <img src="img/about.jpg" alt="Hair Styling">
+      </div>
+      <div class="text">
+        <h2 class="page-title">About</h2>
+        <p>At Palette Hair Atelier “L”, we believe that hair is more than just style — it’s self-expression.<br>
+        Whether you're looking for a bold transformation or a gentle refresh, our personalized approach ensures each guest receives care tailored to their unique beauty. Our mission is to create a relaxing, welcoming space where every visit leaves you feeling confident, radiant, and ready to shine.</p>
+      </div>
+      <div class="image image-bottom">
+        <img src="img/about2.jpg" alt="Haircut">
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="fadein">
+    <h2 class="page-title">Gallery</h2>
+    <div class="grid">
+     <div class="item big-box">
+       <img src="img/gallery1.jpg" alt="Gallery1">
+     </div>
+     <div class="item">
+       <img src="img/gallery2.jpg" alt="Gallery2">
+     </div>
+     <div class="item">
+       <img src="img/gallery3.jpg" alt="Gallery3">
+     </div>
+     <div class="item">
+       <img src="img/gallery4.jpg" alt="Gallery4">
+     </div>
+     <div class="item">
+       <img src="img/gallery5.jpg" alt="Gallery5">
+     </div>
+    </div>
+  </section>
+
+  <section id="menu" class="fadein">
+    <h2 class="page-title">Menu</h2>
+    <div class="menu_grid">
+     <div class="menu_section">
+      <h3>Cut</h3>
+       <ul>
+         <li><div class="menu_item"><span class="name">Women's Haircut</span><span class="price">45€</span></div></li>
+         <li><div class="menu_item"><span class="name">Men's Haircut</span><span class="price">30€</span></div></li>
+         <li><div class="menu_item"><span class="name">Kids (under 12)</span><span class="price">20€</span></div></li>
+         <li><div class="menu_item"><span class="name">Bang Trim</span><span class="price">10€</span></div></li>
+       </ul>
+     </div>
+     <div class="menu_section">
+       <h3>Color</h3>
+       <ul>
+         <li><div class="menu_item"><span class="name">Root Touch-UP</span><span class="price">from 50€</span></div></li>
+         <li><div class="menu_item"><span class="name">Full Head Color</span><span class="price">from 70€</span></div></li>
+         <li><div class="menu_item"><span class="name">Highlights</span><span class="price">from 80€</span></div></li>
+         <li><div class="menu_item"><span class="name">Balayage</span><span class="price">from 100€</span></div></li>
+         <li><div class="menu_item"><span class="name">Toner / Gloss</span><span class="price">30€</span></div></li>
+       </ul>
+     </div>
+     <div class="menu_section">
+       <h3>Styling</h3>
+       <ul>
+         <li><div class="menu_item"><span class="name">Blow Dry</span><span class="price">25€</span></div></li>
+         <li><div class="menu_item"><span class="name">Updo</span><span class="price">from 50€</span></div></li>
+         <li><div class="menu_item"><span class="name">Curl Styling</span><span class="price">35€</span></div></li>
+       </ul>
+     </div>
+     <div class="menu_section">
+       <h3>Treatments</h3>
+       <ul>
+         <li><div class="menu_item"><span class="name">Deep Conditioning</span><span class="price">20€</span></div></li>
+         <li><div class="menu_item"><span class="name">Scalp Treatment</span><span class="price">30€</span></div></li>
+         <li><div class="menu_item"><span class="name">Keratin Treatment</span><span class="price">from 100€</span></div></li>
+       </ul>
+     </div>
+     <div class="menu_section full_width">
+       <h3>Packages</h3>
+       <ul>
+         <li><div class="menu_item"><span class="name">Cut + Color + Treatment</span><span class="price">from 120€</span></div></li>
+         <li><div class="menu_item"><span class="name">Bridal Hair (Trial + Wedding Day)</span><span class="price">from 150€</span></div></li>
+       </ul>
+     </div>
+    </div>
+  </section>
+
+  <section id="reserve" class="fadein">
+    <div class="reserve-inner">
+     <h2 class="page-title">Reserve</h2>
+     <form action="#">
+       <div class="text-content">
+         <label for="name">Name</label>
+         <input type="text" name="your-name" id="name">
+       </div>
+
+       <div class="text-content">
+         <label for="email">Email</label>
+         <input type="email" name="your-email" id="email">
+       </div>
+
+       <div class="text-content">
+         <label for="phone">Phone</label>
+         <input type="text" name="your-phone" id="phone">
+       </div>
+
+       <div class="text-content">
+         <label for="select-box">Select Box</label>
+         <div class="checkbox_group">
+          <label><input type="checkbox" name="your-select" value="cut">CUT</label>
+          <label><input type="checkbox" name="your-select" value="color">COLOR</label>
+          <label><input type="checkbox" name="your-select" value="styling">STYLING</label>
+          <label><input type="checkbox" name="your-select" value="treatments">TREATMENTS</label>
+          <label><input type="checkbox" name="your-select" value="pachages">PACKAGES</label>
+          <label><input type="checkbox" name="your-select" value="other">OTHER</label>
+         </div>
+      </div>
+    
+
+       <div class="text-content">
+         <label for="date-time">Date / Time</label>
+         <input type="text" name="your-date" id="date-time" placeholder="YYYY-MM-DD HH:MM">
+       </div>
+
+       <div class="text-content">
+         <label for="textarea">Textarea</label>
+         <textarea id="text_area" name="your-text"></textarea>
+       </div>
+
+       <input type="submit" class="button" value="Submit">
+     </form>
+    </div>
+  </section>
+
+  <section id="access" class="fadein">
+    <h2 class="page-title">Access</h2>
+    <div class="access-content">
+       <div class="info">
+        <h3>Palette Hair Atelier "L"</h3>
+         <h4>Address</h4>
+         <p>
+          AAAAA BBBBB<br>
+          CCCCC DDDDD FFFFF<br>
+          1-2-3</p>
+         <h4>Phone</h4>
+         <p>00-1234-5678</p>
+         <h4>Business hours</h4>
+         <p>9:00 - 18:00<br>
+         *Closed on Mondays</p>
+       </div>
+       <div class="map">
+        <h3>Map</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89517.11719067398!2d9.096062979840276!3d45.481689617569394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c6aea5501189%3A0x98648fa8f8d4164d!2sComune%20di%20Milano%20-%20Municipio%201!5e0!3m2!1sit!2sit!4v1760357426556!5m2!1sit!2sit" width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       </div>
+    </div>
+  </section>
+
+  <footer>
+    <p><small>&copy;2025 Palette Hair Atelier "L" . All rights reserved.</small></p>
+  </footer>
+
+  
+  <a href="#top" class="back-to-top">
+   <img src="img/arrow-up.svg" alt="Back to top">
+  </a>
+  <script src="js/main.js"></script>
+ </body>
+</html> 
