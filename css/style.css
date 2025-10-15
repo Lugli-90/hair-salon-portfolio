@@ -21,9 +21,7 @@ img {
 }
 
 html, body {
-  height: 100%;
   overflow-x: hidden;
-  overscroll-behavior-y: contain; /* ← 上下スクロールの余計な動きを抑える */
   scroll-behavior: smooth;
 }
 
